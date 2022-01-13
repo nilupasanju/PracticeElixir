@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JSON</title>
+</head>
+<body>
+    <div id="output"></div>
+    <input type="text" id="myValue" value="hello world">
+  <script>
+
+var people = '{"person1": { "name": "Laurence", "age": "40", "location": "Toronto"},    "person2": { "name": "Mike" , "age": "20" , "location": "New York"    }}';
+var myValue = document.getElementById('myValue');
+var myObj = JSON.parse(people);
+var sendAJAX = JSON.stringify(myObj);
+
+if(sessionStorage.getItem("myVal")){
+    myObj = JSON.parse(sessionStorage.getItem("myVal"));
+    myValue.value = myObj.person1.name;
+}
+
+myValue.onchange = function(){
+    console.log(myObj);
+    myObj.person1.name = this.value;
+    sendAJAX = JSON.stringify(myObj);
+    sessionStorage.setItem("myVal",sendAJAX) ;
+}
+
+
+
+</script>
+</body>
+</html>
+
+
+

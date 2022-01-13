@@ -1,0 +1,149 @@
+Json Object With String
+
+{
+ "name": "Scott",
+ "email": "Scottjaia987@gmail.com"
+
+}
+
+Json Object With numbers
+
+{"interger":34,
+"fraction": 0.214,
+"exponent":6.16}
+
+Json Object with boolean
+
+{
+ "first": true,
+ "second": false
+}
+
+Json Nested Object
+
+{
+ "firstName": "Nilupa",
+ "lastName": "Dhanawala",
+ "age": 27,
+ "address":{
+     "streetAddress": "5 Dotterel Court",
+     "surbub": "Werribee",
+     "state": "VIC",
+     "postCode": "3030"
+ }
+}
+
+Json array represents ordered list of values.can store multiple values,It can Store string,number,boolean or object in JSON array.
+In JSon array , values must be separated by comma. The Square Bracket[] represenat Json array
+
+Json Array of Strings
+
+["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+
+Json Array of Numbers
+[12,13,14,15]
+
+Json Array of Boolean
+[true,false]
+
+Json Array of Object
+{"employees":[
+                {"name":"Ram",
+                "email":"ram21@gmail.com",
+                "age": 21
+                },
+                {
+                "name":"Sam",
+                "email":"sam23@gmail.com",
+                "age": 23
+                },
+                {
+                "name":"Tam",
+                "email":"tam32@gmail.com",
+                "age": 32
+                }
+            ]
+}
+
+Json example 01
+{
+    "firstName": "John",
+    "lastName": "doe",
+    "age": 26,
+    "address":{
+        "streetaddress": "naist street",
+        "city": "Nara",
+        "postCode": "630521",
+    },
+    "phoneNumbers":[
+        {
+        "type": "iPhone",
+        "number": "0123-456-789"
+        },
+        {
+         "type": "home",
+         "number": "123-456-789"
+        }
+    ]
+}
+
+example 02
+
+{
+    "books":[
+        {
+            "title": "Professional JavaScript",
+            "authors": [
+                "Nicholas c. Zaks"
+            ],
+            "edition": 3,
+            "year": 2011
+        },
+        {
+            "title": "Professional JavaScript",
+            "authors": [
+                "Nicholas c. Zaks"
+            ],
+            "edition": 2,
+            "year": 2009
+        },
+        {
+            "title": "Professional JavaScript",
+            "authors": [
+                "Nicholas c. Zaks",
+                "Nilupa Dhanwala",
+                "Nuwan Kaman"
+            ],
+            "edition": 2,
+            "year": 2008
+        }
+
+    ]
+}
+
+Example 03
+{"store":{
+    "books":[
+        {"category": "reference",
+         "author": "Nigel Rees",
+         "title": "Sayings of the Century",
+         "price": 8.95
+        },
+        {"category": "fiction",
+         "author": "Evelyn Waugh",
+         "title": "Sword of Honour",
+         "price": 12.99
+
+        }
+      ]
+    },
+    "bicycle":{
+        "color": "red",
+        "price": 19.95
+    },
+    "toys":{
+        "age group": "1-5"
+    }
+  }
+}
+

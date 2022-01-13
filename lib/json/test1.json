@@ -1,0 +1,43 @@
+{
+  "id":1212,
+  "isActive":"true",
+  "balance": "$1742.36",
+  "age":34,
+  "name":"john",
+  "gender":"male",
+  "email":"johnwood@gmail.com",
+  "phone":"+1(972)5762049",
+  "address":"125,clifford place,Minnesota,6917",
+  "tags":["eiusmod","veniam","magna"],
+  "friends":[
+      {"id":0,
+      "name": "Lula Cannon"
+      },
+      {"id":1,
+       "name": "Rachel Snider"
+      }
+  ],
+  "favouriteFruit": "banana"
+},
+
+{
+    "id":1213,
+    "isActive":"false",
+    "balance": "$2517.89",
+    "age":25,
+    "name":"David",
+    "gender":"male",
+    "email":"davidwood@gmail.com",
+    "phone":"+1(984)5172085",
+    "address":"818,Minna Street,Castleton,District of Colombia,6091",
+    "tags":["voluptate","veniam","magna"],
+    "friends":[
+        {"id":0,
+        "name": "allen Walsh"
+        },
+        {"id":1,
+         "name": "Norton Bush"
+        }
+    ],
+    "favouriteFruit": "strawberry"
+}  
